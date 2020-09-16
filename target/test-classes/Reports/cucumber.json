@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 348000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.before()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verifying the login credential",
+        "description": "",
+        "id": "run-adactin-hotel-with-differrent-scenario;verifying-the-login-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 247800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 238700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18383667200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am entering the Adactin hotel login webpage",
+            "match": {
+              "location": "StepDefinition.i_am_entering_the_Adactin_hotel_login_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7723680100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am giving the \"krishnakrishna1177\",\"balaji1514\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "krishnakrishna1177",
+                  "offset": 17
+                },
+                {
+                  "val": "balaji1514",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.i_am_giving_the(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 402900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 265200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.before1()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "1 Verifying the Hotel Searching",
+        "description": "",
+        "id": "run-adactin-hotel-with-differrent-scenario;1-verifying-the-hotel-searching;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 212500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 191900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 178500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am entering the Adactin hotel app home page",
+            "match": {
+              "location": "StepDefinition.i_am_entering_the_Adactin_hotel_app_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2418777400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter the \"Sydney\" , \"Hotel Creek\" ,\"Standard\" , \"1 - One\", \"01/09/2020\" , \"02/09/2020\", \"1 - One\" , \"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney",
+                  "offset": 16
+                },
+                {
+                  "val": "Hotel Creek",
+                  "offset": 27
+                },
+                {
+                  "val": "Standard",
+                  "offset": 42
+                },
+                {
+                  "val": "1 - One",
+                  "offset": 55
+                },
+                {
+                  "val": "01/09/2020",
+                  "offset": 66
+                },
+                {
+                  "val": "02/09/2020",
+                  "offset": 81
+                },
+                {
+                  "val": "1 - One",
+                  "offset": 95
+                },
+                {
+                  "val": "0 - None",
+                  "offset": 107
+                }
+              ],
+              "location": "StepDefinition.user_enter_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1046072000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should select the hotel from the webtable",
+            "match": {
+              "location": "StepDefinition.user_should_select_the_hotel_from_the_webtable()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1650095100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user entering personal details \"Balaji\",\"G\",\"5/54 erode 641659\",\"9876543219876543\",\"VISA\", \"July\",\"2020\",\"544\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Balaji",
+                  "offset": 32
+                },
+                {
+                  "val": "G",
+                  "offset": 41
+                },
+                {
+                  "val": "5/54 erode 641659",
+                  "offset": 45
+                },
+                {
+                  "val": "9876543219876543",
+                  "offset": 65
+                },
+                {
+                  "val": "VISA",
+                  "offset": 84
+                },
+                {
+                  "val": "July",
+                  "offset": 92
+                },
+                {
+                  "val": "2020",
+                  "offset": 99
+                },
+                {
+                  "val": "544",
+                  "offset": 106
+                }
+              ],
+              "location": "StepDefinition.user_entering_personal_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6540842000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click search hotel button",
+            "match": {
+              "location": "StepDefinition.click_search_hotel_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Run adactin hotel with differrent scenario",
+    "description": "",
+    "id": "run-adactin-hotel-with-differrent-scenario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/StepDefinition.feature",
+    "tags": []
+  }
+]
